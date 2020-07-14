@@ -55,13 +55,15 @@ function setup() {
 }
 
 function draw() {
-  if(BColor){
+ 
+  Engine.update(engine)
+  
+   if(BColor){
     background(BColor);
   }
   else{
     background("balck");
   }
-  Engine.update(engine)
   
   ground.display();
 
