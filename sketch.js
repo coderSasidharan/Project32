@@ -58,6 +58,9 @@ function draw() {
   if(BColor){
     background(BColor);
   }
+  else{
+    background("balck");
+  }
   Engine.update(engine)
   
   ground.display();
